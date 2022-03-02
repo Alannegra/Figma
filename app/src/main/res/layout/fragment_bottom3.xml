@@ -102,7 +102,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/whitehorizontal2" />
 
             <pl.droidsonroids.gif.GifImageView
-                android:id="@+id/sunitem"
+                android:id="@+id/imageView3E"
                 android:layout_width="95dp"
                 android:layout_height="95dp"
                 android:layout_marginTop="4dp"
@@ -144,7 +144,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/whitehorizontal3" />
 
             <pl.droidsonroids.gif.GifImageView
-                android:id="@+id/imageView3E"
+                android:id="@+id/sunitem"
                 android:layout_width="95dp"
                 android:layout_height="95dp"
                 android:layout_marginTop="4dp"
