@@ -102,12 +102,20 @@
         android:id="@+id/earthItem"
         android:name="com.example.navegation.EarthItem"
         android:label="fragment_earth_item"
-        tools:layout="@layout/fragment_earth_item" />
+        tools:layout="@layout/fragment_earth_item" >
+        <action
+            android:id="@+id/action_earthItem_to_bottom2Shop2"
+            app:destination="@id/bottom2Shop" />
+    </fragment>
     <fragment
         android:id="@+id/bottom2Shop"
         android:name="com.example.navegation.bottom2Shop"
         android:label="fragment_bottom2_shop"
-        tools:layout="@layout/fragment_bottom2_shop" />
+        tools:layout="@layout/fragment_bottom2_shop" >
+        <action
+            android:id="@+id/action_bottom2Shop_to_creditCard"
+            app:destination="@id/creditCard" />
+    </fragment>
     <fragment
         android:id="@+id/tutorial"
         android:name="com.example.navegation.tutorial"
@@ -122,6 +130,11 @@
         android:name="com.example.navegation.FakeLogin"
         android:label="fragment_fake_login"
         tools:layout="@layout/fragment_fake_login" />
+    <fragment
+        android:id="@+id/creditCard"
+        android:name="com.example.navegation.CreditCard"
+        android:label="fragment_credit_card"
+        tools:layout="@layout/fragment_credit_card" />
     <!--<fragment
         android:id="@+id/options3Fragment"
         android:name="com.example.navegation.Options3Fragment"

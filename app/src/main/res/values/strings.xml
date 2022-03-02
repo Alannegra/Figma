@@ -19,5 +19,8 @@
     <string name="eliminar">Eliminar cuenta</string>
     <string name="tuto">Tutorial</string>
     <string name="spacecart">Space cart</string>
+    <string name="interrogante">\?</string>
+    <string name="creditcard">Tarjeta de credito</string>
+    <string name="pagar">Pagar</string>
 
 </resources>
